@@ -18,6 +18,19 @@ const styles = StyleSheet.create({
   subtitle: {
     color: "grey",
   },
+  row: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  rating: {
+    marginLeft: "auto",
+    backgroundColor: "lightgray",
+    width: 30,
+    height: 30,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 10,
+  },
 });
 
 export default styles;
