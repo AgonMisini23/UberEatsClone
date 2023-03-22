@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
   page: {
     flex: 1,
     width: "100%",
-    paddingVertical: 30, // temp fix
+    paddingVertical: 40, // temp fix
     padding: 10,
   },
   name: {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   description: {
     color: "gray",
   },
-  seperator: {
+  separator: {
     height: 1,
     backgroundColor: "lightgrey",
     marginVertical: 10,
@@ -42,5 +42,4 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
 });
-
 export default styles;

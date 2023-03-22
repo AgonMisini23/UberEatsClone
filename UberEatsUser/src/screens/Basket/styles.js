@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
   page: {
     flex: 1,
     width: "100%",
-    paddingVertical: 30, // temp fix
+    paddingVertical: 40, // temp fix
     padding: 10,
   },
   name: {
@@ -15,10 +15,16 @@ const styles = StyleSheet.create({
   description: {
     color: "gray",
   },
-  seperator: {
+  separator: {
     height: 1,
     backgroundColor: "lightgrey",
     marginVertical: 10,
+  },
+  row: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginVertical: 15,
+    paddingHorizontal: 10,
   },
   quantity: {
     fontSize: 25,
@@ -34,6 +40,13 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "600",
     fontSize: 18,
+  },
+  quantityContainer: {
+    backgroundColor: "lightgray",
+    paddingHorizontal: 5,
+    paddingVertical: 2,
+    marginRight: 10,
+    borderRadius: 3,
   },
 });
 
